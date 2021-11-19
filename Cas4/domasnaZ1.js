@@ -44,7 +44,7 @@ function convertCF (a, b){
     			return `The Celsius temperature of ${ambientTemperature} converted in Farenhei is:${(a*9/5)+32}`
     			break
     			default:
-    			return `ima greska vo switch proveri sto vlaga kako input`
+    			return `The switch:case is not working proper check the input value`
     		}    		
     	}else{return `The unit parameter should be C for Celsius or F for Farenheit`}        
     }else{return notValidNumber}    
