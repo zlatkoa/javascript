@@ -46,7 +46,7 @@ function convertCF (a, b){
     			default:
     			return `ima greska vo switch proveri sto vlaga kako input`
     		}    		
-    	}else{return `parametarot za merna edinica treba da bide C-za celsius i F-za Farenheit`}        
+    	}else{return `The unit parameter should be C for Celsius or F for Farenheit`}        
     }else{return notValidNumber}    
 }
 
