@@ -21,5 +21,3 @@ function longestWord (a){
 const findLongestWord = longestWord(sentence)
 
 console.log(findLongestWord)
-
-
