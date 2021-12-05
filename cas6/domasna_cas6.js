@@ -30,15 +30,9 @@ class coffeeMachine {
 			console.log(`\n Number of coffies prepared since last time machine is refilled  ${coffecounter}. \n Status \n  coffee=${this.coffee}g, \n  milk=${this.milk}g, \n  water=${this.water}g \n `)
 		}else{
 			const ingridientsCheck =[
-				{name:'coffee',
-				current:this.coffee,
-				requested:coffee},
-				{name:'milk',
-				current:this.milk,
-				requested:milk},
-				{name:'water',
-				current:this.water,
-				requested:water}
+				{name:'coffee', current:this.coffee, requested:coffee},
+				{name:'milk', current:this.milk, requested:milk},
+				{name:'water', current:this.water, requested:water}
 			]
 			for (let i=0;i<ingridientsCheck.length;i++){
 				if (ingridientsCheck[i].current<ingridientsCheck[i].requested){
