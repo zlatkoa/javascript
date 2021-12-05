@@ -28,6 +28,11 @@ class UserData {
   }
 }  
 
+var container = document.createElement('div')
+    container.setAttribute("id","usercard","class","d-flex flex-row align-items-start flex-wrap")
+    container.setAttribute("class","d-flex flex-row align-items-start flex-wrap")
+    document.body.appendChild(container)
+
 async function getData () {
   let users = []
   try {
